@@ -3,12 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <script src="main.js"></script>
-  <title>hello world!</title>
+  <title>drawer</title>
+  <style>
+    #main{position: fixed; top: 0; right: 0; bottom: 0;
+     width: 200px; padding: 10px; 
+     background-color: antiquewhite;
+     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+     transition: all 0.4s ease-out;
+     }
+     
+  </style>
+  <script defer src="main.js"></script>
 </head>
 <body>
 
+<button id="opener">메뉴열기</button>
 
-
+<div id="main" style="transform: translateX(220px);">
+  <h2>메뉴</h2>
+  <ul><li>메뉴1</li></ul>
+  <ul><li>메뉴2</li></ul>
+</div>
 </body>
 </html>
